@@ -6,10 +6,6 @@ print(type(2.5))
 
 #Exercice 2
 
-
-
-#Exercice 3
-
 for i in range (20) :
     if (i%2 == 0):
         print("Le chiffre",i,"est pair !")
@@ -23,6 +19,10 @@ while i <= 20:
         i += 1
     else:
         i += 1
+
+#Exercice 3
+
+
 
 
 #Exercice 4
