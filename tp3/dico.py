@@ -14,9 +14,3 @@ del awesome_couples['Bob sponge square']
 c = bob in awesome_couples
 d = awesome_couples.get(bob, 'unknown')
 e = awesome_couples.get('Ant man', 'toto')
-
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
