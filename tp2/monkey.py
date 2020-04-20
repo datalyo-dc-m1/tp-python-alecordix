@@ -2,7 +2,7 @@ class Monkey:
     def __init__(self, name, banane):
         self.name = name
         self.banane = banane
-    def eat(self):
+    def mange(self):
         print('Un singé nommé', self.name, 'mange une banane de couleur', self.banane.color)
 
 class Banane:
@@ -15,5 +15,5 @@ banane_jaune = Banane('jaune')
 Pierre = Monkey("Pierre", banane_jaune)
 Marie = Monkey("Marie", banane_verte)
 
-Pierre.eat()
-Marie.eat()
+Pierre.mange()
+Marie.mange()
