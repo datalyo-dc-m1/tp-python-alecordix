@@ -47,10 +47,10 @@ print("STOP ! C'est fini !")
 
 #Exercice 5
 
-a = int(input("Donnez le premier nombre : "))
-print(a)
-b = int(input("Donnez le premier nombre : "))
-print(b)
+nb1 = int(input("Donnez le premier nombre : "))
+print(nb1)
+nb2 = int(input("Donnez le deuxième nombre : "))
+print(nb2)
 op = input("Donnez le symbole de l'opération: ")
 print(op)
 print()
